@@ -96,19 +96,6 @@ public class LottoUI extends JFrame {
         });
         inputPanel.add(generateButton);
 
-        checkButton = new JButton("번호 확인");
-        checkButton.setFont(new Font("SansSerif", Font.BOLD, 24));
-        checkButton.setBackground(new Color(34, 139, 34));
-        checkButton.setForeground(Color.WHITE);
-        checkButton.setFocusPainted(false);
-        checkButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                checkLottoNumbers();
-            }
-        });
-        inputPanel.add(checkButton);
-
         add(inputPanel, BorderLayout.SOUTH);
     }
 
