@@ -130,10 +130,6 @@ public class LottoUI extends JFrame {
                 return;
             }
         }
-
-        result.append("<br>맞춘 갯수: ").append(correctCount);
-        result.append("</body></html>");
-        resultLabel.setText(result.toString().trim());
     }
 
     private void openWebpage(String url) {
