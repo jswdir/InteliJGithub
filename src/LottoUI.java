@@ -35,7 +35,7 @@ public class LottoUI extends JFrame {
 
         // 이미지 추가
         imageLabel = new JLabel();
-        ImageIcon icon = new ImageIcon("C:\\dd\\그림1.jpg");
+        ImageIcon icon = new ImageIcon("java.jpg");
         imageLabel.setIcon(icon);
         imageLabel.setLayout(new BorderLayout());
         setContentPane(imageLabel);
@@ -43,13 +43,13 @@ public class LottoUI extends JFrame {
         // 타이틀 레이블
         JLabel titleLabel = new JLabel("대나무 숲의 푸바오 복권", JLabel.CENTER);
         titleLabel.setFont(new Font("Serif", Font.BOLD, 48)); // 글자 크기 48로 조정
-        titleLabel.setForeground(new Color(34, 139, 34));
+        titleLabel.setForeground(new Color(0, 255, 0));
         add(titleLabel, BorderLayout.NORTH);
 
         // 하이퍼링크 레이블
         hyperlinkLabel = new JLabel("<html><a href=''>사용 가이드</a></html>");
         hyperlinkLabel.setFont(new Font("Serif", Font.PLAIN, 20));
-        hyperlinkLabel.setForeground(Color.BLUE);
+        hyperlinkLabel.setForeground(Color.yellow);
         hyperlinkLabel.setHorizontalAlignment(JLabel.CENTER);
         hyperlinkLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
         hyperlinkLabel.addMouseListener(new MouseAdapter() {
