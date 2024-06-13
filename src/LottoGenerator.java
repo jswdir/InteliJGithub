@@ -14,4 +14,8 @@ public class LottoGenerator {
 
         return numbers;
     }
+
+    public Set<Integer> getGeneratedNumbers() {
+        return null;
+    }
 }
