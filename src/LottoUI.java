@@ -58,7 +58,7 @@ public class LottoUI extends JFrame {
         hyperlinkLabel.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                openWebpage("https://docs.google.com/presentation/d/1EeYISdCAgSnEYpZisOO2s9emj-KY-xqv/edit#slide=id.p1");
+                openWebpage("https://docs.google.com/presentation/d/1K6bmlqUsQFaF5d3wi3IvN6MnLgcvAcj9/edit#slide=id.p1");
             }
         });
         JPanel linkPanel = new JPanel();
